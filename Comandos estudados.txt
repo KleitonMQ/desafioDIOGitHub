@@ -1,0 +1,31 @@
+Comandos para o terminal:
+
+Ctrl + L  > limpa o terminal
+
+ls  > Lista as pastas e arquivos
+
+ls -a  > Lista os arquivos e pastas incluindo arquivos ocultos.
+
+Comandos git
+
+git init > cria a estura git na pasta que está aberta.
+
+git config --global user.name “nome de usuário github” > Configura o nome do autor para qualquer repositório criado no computador. 
+
+git config --global user.email “email usado para cadastrar no github” > Configura o email do usuário para enviar os commit para o repositório online.
+
+git add . > adiciona todos os arquivos alterados para uma lista de arquivos aguardando commit
+
+git commit -m “descrição” > Atualiza o repositório para a versão com todas as alterações feitas pelo git add.
+
+git config --global --unset (user.name ou user.email) > remove o nome ou o email cadastrado na configuração global (usar quando precisar configurar usuário ou email novo).
+
+Comandos SSH
+
+ssh-keygen –t ed25519 > cria os arquivos da chave ssh publica e privada depois de pedir algumas informações. 
+cat id_ed25519.pub > exibe a chave SSH, pode copiar e colar no github e vincular ao computador.
+
+Eval $(ssh-gent -s)
+
+Ssh -add id_ed25519
+
