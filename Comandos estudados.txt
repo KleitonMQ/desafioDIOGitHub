@@ -20,6 +20,8 @@ git commit -m “descrição” > Atualiza o repositório para a versão com tod
 
 git config --global --unset (user.name ou user.email) > remove o nome ou o email cadastrado na configuração global (usar quando precisar configurar usuário ou email novo).
 
+git push origin main > envia o repositorio do computador para o github
+
 Comandos SSH
 
 ssh-keygen –t ed25519 > cria os arquivos da chave ssh publica e privada depois de pedir algumas informações. 
